@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @StateObject var fastingManager = FastingManager()
     var title: String {
         switch fastingManager.fastingState {
